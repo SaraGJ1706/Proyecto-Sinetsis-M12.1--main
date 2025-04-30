@@ -1,0 +1,28 @@
+.bandera_idioma
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 60%;
+}
+
+.body{
+    background-image: url(../img/fondo_web.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto {
+    color: #e7e7e7;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#accordionFlushExample {
+    margin-top: 48px;
+}
