@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONG - A.E.S.W</title>
+    <title>ONG - SEA W</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./img/icono.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
@@ -12,7 +12,7 @@
 <body class="body">
     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">ONG - A.E.S.W</a>
+          <a class="navbar-brand" href="#">ONG - SEA W</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -39,31 +39,29 @@
           </div>
         </div>
       </nav>
-<br>
-<br>
-<br>
-      <h1 class="texto">ONG - A.E.S.W</h1>
+      <div id="encabezado">
+        <h1>ONG - SEA W</h1>
+      </div>
 <br>
 <br>
 <br>
       <!-- CUATRO CARTAS DE LOS TEMAS -->
-      <div class="col-lg-8">
+      <div class="col-lg-12">
         <h2 class="texto">Acerca de la ONG</h2>
        </div>
-      <div class="row">
-        <div class="row row-cols-1 row-cols-md-2 g-4 col-lg-8">
-            <div class="col">
+    <div class="row id">
+      <div class="col-lg-12">
+        <div class="row row-cols-1 row-cols-md-2 g-4 col-lg-8" id="margen">
+            <div class="col resaltado">
               <div class="card">
-                <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Quines Somos?</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col resaltado">
               <div class="card">
-                <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Que hacemos?</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -71,18 +69,16 @@
               </div>
             </div>
 
-            <div class="col">
+            <div class="col resaltado">
               <div class="card">
-                <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Actividades</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col resaltado">
               <div class="card">
-                <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Donaciones</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -90,42 +86,85 @@
               </div>
             </div>
           </div>
+        </div>
 
           <!-- Zona de las noticias -->
-          <h2 class="texto">Noticias sobre microplasticos</h2>
-          <div class="accordion accordion-flush col-lg-4" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  NOTICIA 1
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          <div class="col-lg-12">
+            <br>
+            <br>
+            <h2 class="texto">Noticias sobre microplasticos</h2>
+          </div>
+          <div class="row" id="centrar">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="card" style="width: 18rem;">
+                <img src="./img/noticia1.jpg" class="card-img-top" alt="noticia">
+                <div class="card-body">
+                  <h5 class="card-title">La Fosa de las Marianas, un saco de microplásticos a 6.800 metros de profundidad</h5>
+                  <p class="card-text">La zona marina más profunda conocida de la Tierra, la Fosa de las Marianas, a una profundidad de 6.800 metros en el Pacífico occidental, alberga una media 13.500 partículas de plástico por cada metro cúbico de agua, según pone de manifiesto un estudio recogido este miércoles en la revista científica Nature.</p>
+                  <a href="https://www.20minutos.es/noticia/5705566/0/fosa-las-marianas-un-saco-microplasticos-6-800-metros-profundidad/" class="btn btn-primary">Ir al sitio web</a>
+                </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  NOTICIA 2
-                </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="card" style="width: 18rem;">
+                <img src="./img/noticia2.jpg" class="card-img-top" alt="noticia">
+                <div class="card-body">
+                  <h5 class="card-title">Canarias recibe basuras marinas de Estados Unidos y, sorpresa, también de Groenlandia</h5>
+                  <p class="card-text">La travesía entre Canarias y América durante la época de la navegación clásica, especialmente desde el viaje de Cristóbal Colón, estuvo determinada por dos factores clave: las corrientes marinas superficiales y los vientos alisios.</p>
+                  <a href="https://www.20minutos.es/medio-ambiente/blogs/cronicaverde/canarias-recibe-basuras-marinas-estados-unidos-sorpresa-tambien-groenlandia-5701653/" class="btn btn-primary">Ir al sitio web</a>
+                </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  NOTICIA 3
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="card" style="width: 18rem;">
+                <img src="./img/noticia3.jpg" class="card-img-top" alt="noticia">
+                <div class="card-body">
+                  <h5 class="card-title">Hallan una "alarmante" concentración de microplásticos en 14 ríos europeos, del Ebro al Támesis</h5>
+                  <p class="card-text">Un compendio de catorce estudios científicos publicados este jueves han han detectado niveles alarmantes de microplásticos en los principales ríos de Europa.</p>
+                  <a href="https://www.20minutos.es/internacional/hallan-una-alarmante-concentracion-microplasticos-14-rios-europeos-ebro-tamesis-5698472/" class="btn btn-primary">Ir al sitio web</a>
+                </div>
               </div>
             </div>
           </div>
-    </div>
+
+          <div class="row" id="centrar">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <br>
+              <br>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/noticia4.jpg" class="card-img-top" alt="noticia">
+                <div class="card-body">
+                  <h5 class="card-title">Alerta plasticosis: el 90% de los pollos de las aves marinas de Canarias tienen microplásticos en el estómago</h5>
+                  <p class="card-text">l mar se está convirtiendo en un inmenso basurero donde ya casi hay más plásticos que pescados. Un problema que afecta gravemente a su biodiversidad, provocando todo tipo de problemas e incluso enfermedades hasta la fecha desconocidas y que los expertos han comenzado a denominar "plasticosis". </p>
+                  <a href="https://www.20minutos.es/medio-ambiente/blogs/cronicaverde/alerta-plasticosis-90-las-aves-marinas-canarias-tienen-microplasticos-estomago-5677991/" class="btn btn-primary">Ir al sitio web</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <br>
+              <br>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/noticia5.jpg" class="card-img-top" alt="noticia">
+                <div class="card-body">
+                  <h5 class="card-title">Un año del vertido de pellets: ¿qué fue de las minúsculas bolitas de plástico que llegaron por toneladas a las playas gallegas?</h5>
+                  <p class="card-text">El 8 de diciembre de 2023, el Toconao, un carguero de bandera liberiana, perdió seis contenedores frente a las costas de Portugal. Uno de ellos llevaba 26 toneladas de pellets. Esas minúsculas bolitas de plástico comenzaron a llegar a las costas de Galicia. Hubo tormenta política porque se creyó que aquello podía tener la dimensión de otro Prestige. Pero no fue así.</p>
+                  <a href="https://www.20minutos.es/noticia/5660447/0/un-ano-del-vertido-de-pellets-que-fue-de-aquellas-minusculas-bolitas-de-plastico-que-llegaron-a-las-playas-gallegas/" class="btn btn-primary">Ir al sitio web</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <br>
+              <br>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/noticia6.jpg" class="card-img-top" alt="noticia">
+                <div class="card-body">
+                  <h5 class="card-title">Encuentran microplásticos en el aire exhalado por los delfines</h5>
+                  <p class="card-text">En todo el mundo, los seres humanos y los animales viven expuestos a los microplásticos, diminutas partículas de contaminantes que se han relacionado con efectos adversos para la salud. Ahora, un equipo de científicos ha encontrado estas partículas en el aire exhalado por delfines mulares salvajes.</p>
+                  <a href="https://www.20minutos.es/noticia/5644721/0/encuentran-microplasticos-aire-exhalado-por-los-delfines/" class="btn btn-primary">Ir al sitio web</a>
+                </div>
+              </div>
+            </div>
+          </div>
 </body>
 </html>
 

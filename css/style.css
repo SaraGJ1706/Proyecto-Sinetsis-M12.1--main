@@ -14,15 +14,50 @@
 }
 
 .texto {
-    color: #e7e7e7;
-    padding: 0px;
-    margin: 0px;
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
 }
 
-h1 {
+#encabezado {
+    background-image: url(../img/encabezado.png);
+    color: #fdfdfd;
+    width: 100%; /* Ocupa todo el ancho de la página */
+    height: 620px;
+    background-position: center;
+    background-size: cover; /* Asegura que la imagen cubra todo el div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Asegúrate de que no haya margen */
+    padding: 0; /* Asegúrate de que no haya padding */
     text-align: center;
+ 
 }
 
 #accordionFlushExample {
     margin-top: 48px;
+    color: rgba(240, 248, 255, 0.644);
+}
+
+.resaltado:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    
+  }
+
+#margen {
+    margin-left: 300px; /* Espacio a la izquierda */
+    margin-right: 300px; /* Espacio a la derecha */
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+#centrar {
+    margin-left: 130px; /* Espacio a la izquierda */
 }
