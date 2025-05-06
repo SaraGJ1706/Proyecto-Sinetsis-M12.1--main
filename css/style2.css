@@ -1,0 +1,27 @@
+.body{
+    background-image: url(../img/fondo_web.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bandera_idioma
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 60%;
+}
+
+#footer {
+    background-color:rgb(52, 53, 53);
+    color: #fdfdfd;
+    width: 100%; /* Ocupa todo el ancho de la página */
+    background-size: cover; /* Asegura que la imagen cubra todo el div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Asegúrate de que no haya margen */
+    padding: 0; /* Asegúrate de que no haya padding */
+}
+
