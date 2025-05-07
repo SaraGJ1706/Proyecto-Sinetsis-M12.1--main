@@ -63,10 +63,6 @@ img {
     justify-content: center;
 }
 
-#centrar {
-    margin-left: 130px; /* Espacio a la izquierda */
-}
-
 #footer {
     background-color:rgb(52, 53, 53);
     color: #fdfdfd;
@@ -79,6 +75,11 @@ img {
     padding: 0; /* Asegúrate de que no haya padding */
 }
 
+.container {
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
