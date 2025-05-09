@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="body">
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
-          <img src="./img/icono.png" class="icono_menu">
+          <img src="./img/icono.png" class="icono_menu img-fluid">
           <a class="navbar-brand" href="#">ONG - SEA W</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -20,16 +21,16 @@
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Pagina principal</a>
+                <a class="nav-link active" aria-current="page" href="#">Página principal</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Idiomas
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Español <img src="./img/español.jpg" class="bandera_idioma"></a></li>
-                  <li><a class="dropdown-item" href="#">Catalan <img src="./img/catalan.jpg" class="bandera_idioma"></a></li>
-                  <li><a class="dropdown-item" href="#">Inglés <img src="./img/ingles.jpg" class="bandera_idioma"></a></li>
+                  <li><a class="dropdown-item" href="#">Español <img src="./img/español.jpg" class="bandera_idioma img-fluid"></a></li>
+                  <li><a class="dropdown-item" href="#">Catalán <img src="./img/catalan.jpg" class="bandera_idioma img-fluid"></a></li>
+                  <li><a class="dropdown-item" href="#">Inglés <img src="./img/ingles.jpg" class="bandera_idioma img-fluid"></a></li>
                 </ul>
               </li>
             </ul>
@@ -40,125 +41,129 @@
           </div>
         </div>
       </nav>
-      <div id="encabezado">
-        <h1>ONG - SEA W</h1>
-      </div>
-<br>
-<br>
-<br>
-      <!-- CUATRO CARTAS DE LOS TEMAS -->
-      <div class="col-lg-12">
-        <h2 class="texto">Acerca de la ONG</h2>
-       </div>
-    <div class="row id">
-      <div class="row row-cols-1 row-cols-md-2 g-4 ">
-        <div class="col-lg-6 col-md-12 col-12 col-sm-12">
-          <div class="card  resaltado">
-        
-            <div class="card-body">
-              <h5 class="card-title">Quienes somos</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-12 col-sm-12">
-          <div class="card resaltado">
-            <div class="card-body">
-              <h5 class="card-title">Que hacemos</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-12 col-sm-12">
-          <div class="card resaltado">
-            <div class="card-body">
-              <h5 class="card-title">Actividades</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-12 col-sm-12">
-          <div class="card resaltado">
-            <div class="card-body">
-              <h5 class="card-title">Donaciones</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-      </div>
 
-          <!-- Zona de las noticias -->
-          <div class="col-lg-12">
-            <br>
-            <br>
-            <h2 class="texto">Noticias sobre microplasticos</h2>
-          </div>
-        
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/noticia1.jpg" class="card-img-top" alt="noticia">
-                  <div class="card-body">
+    <!-- Encabezado -->
+    <div id="encabezado" class="text-center">
+        <h1>ONG - SEA W</h1>
+    </div>
+
+    <br><br><br>
+
+    <!-- Cuatro cartas de los temas -->
+    <div class="container">
+        <div class="col-lg-12">
+            <h2 class="texto text-center">Acerca de la ONG</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 g-4">
+            <div class="col">
+                <div class="card resaltado">
+                    <div class="card-body">
+                        <h5 class="card-title">Quienes somos</h5>
+                        <p class="card-text">Información sobre quienes somos como ONG y que queremos conseguir.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card resaltado">
+                    <div class="card-body">
+                        <h5 class="card-title">Qué hacemos</h5>
+                        <p class="card-text">Apartado en el cual explicamos qué hacemos y cuál es nuestro objetivo como ONG.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card resaltado">
+                    <div class="card-body">
+                        <h5 class="card-title">Actividades</h5>
+                        <p class="card-text">Apartado informativo sobre las actividades solidarias que queremos realizar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card resaltado">
+                    <div class="card-body">
+                        <h5 class="card-title">Donaciones</h5>
+                        <p class="card-text">Apartado de donaciones y tienda solidaria de nuestra ONG.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!-- Noticias -->
+    <div class="container">
+        <div class="col-lg-12">
+            <h2 class="texto text-center">Noticias sobre microplásticos</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card" style="width: 100%;">
+                    <img src="./img/noticia1.jpg" class="card-img-top img-fluid" alt="noticia">
+                    <div class="card-body">
                     <h5 class="card-title">La Fosa de las Marianas, un saco de microplásticos a 6.800 metros de profundidad</h5>
-                    <p class="card-text">La zona marina más profunda conocida de la Tierra, la Fosa de las Marianas, a una profundidad de 6.800 metros en el Pacífico occidental, alberga una media 13.500 partículas de plástico por cada metro cúbico de agua, según pone de manifiesto un estudio recogido este miércoles en la revista científica Nature.</p>
+                    <p class="card-text">La zona marina más profunda conocida de la Tierra, la Fosa de las Marianas, situada en el Pacifico, alberga una media 13.500 partículas de plástico por cada metro cúbico de agua.</p>
+                    <br>
+                    <br>
                     <a href="https://www.20minutos.es/noticia/5705566/0/fosa-las-marianas-un-saco-microplasticos-6-800-metros-profundidad/" class="btn btn-primary">Ir al sitio web</a>
-                  </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/noticia2.jpg" class="card-img-top" alt="noticia">
-                  <div class="card-body">
+            </div>
+            <div class="col">
+                <div class="card" style="width: 100%;">
+                    <img src="./img/noticia2.jpg" class="card-img-top img-fluid" alt="noticia">
+                    <div class="card-body">
                     <h5 class="card-title">Canarias recibe basuras marinas de Estados Unidos y, sorpresa, también de Groenlandia</h5>
-                    <p class="card-text">La travesía entre Canarias y América durante la época de la navegación clásica, especialmente desde el viaje de Cristóbal Colón, estuvo determinada por dos factores clave: las corrientes marinas superficiales y los vientos alisios.</p>
+                    <p class="card-text">La travesía entre Canarias y América durante la época de la navegación clásica, especialmente desde el viaje de Cristóbal Colón. Ambos elementos fueron esenciales para el éxito de las expediciones transatlánticas y definieron las rutas marítimas entre Europa y el Nuevo Mundo.</p>
+                    <br>
+                    <br>
                     <a href="https://www.20minutos.es/medio-ambiente/blogs/cronicaverde/canarias-recibe-basuras-marinas-estados-unidos-sorpresa-tambien-groenlandia-5701653/" class="btn btn-primary">Ir al sitio web</a>
-                  </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/noticia3.jpg" class="card-img-top" alt="noticia">
-                  <div class="card-body">
+            </div>
+            <div class="col">
+                <div class="card" style="width: 100%;">
+                    <img src="./img/noticia3.jpg" class="card-img-top img-fluid" alt="noticia">
+                    <div class="card-body">
                     <h5 class="card-title">Hallan una "alarmante" concentración de microplásticos en 14 ríos europeos, del Ebro al Támesis</h5>
-                    <p class="card-text">Un compendio de catorce estudios científicos publicados este jueves han han detectado niveles alarmantes de microplásticos en los principales ríos de Europa.</p>
+                    <p class="card-text">Un compendio de catorce estudios científicos publicados este jueves han han detectado niveles alarmantes de microplásticos en los principales ríos de Europa.La contaminación está presente en todos los ríos europeos estudiados, afirmó el científico francés Jean-François Ghiglione, quien coordinó la operación a gran escala en nueve ríos importantes.</p>
                     <a href="https://www.20minutos.es/internacional/hallan-una-alarmante-concentracion-microplasticos-14-rios-europeos-ebro-tamesis-5698472/" class="btn btn-primary">Ir al sitio web</a>
-                  </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/noticia4.jpg" class="card-img-top" alt="noticia">
-                  <div class="card-body">
+            </div>
+            <div class="col">
+                <div class="card" style="width: 100%;">
+                    <img src="./img/noticia4.jpg" class="card-img-top img-fluid" alt="noticia">
+                    <div class="card-body">
                     <h5 class="card-title">Alerta plasticosis: el 90% de los pollos de las aves marinas de Canarias tienen microplásticos en el estómago</h5>
                     <p class="card-text">l mar se está convirtiendo en un inmenso basurero donde ya casi hay más plásticos que pescados. Un problema que afecta gravemente a su biodiversidad, provocando todo tipo de problemas e incluso enfermedades hasta la fecha desconocidas y que los expertos han comenzado a denominar "plasticosis". </p>
                     <a href="https://www.20minutos.es/medio-ambiente/blogs/cronicaverde/alerta-plasticosis-90-las-aves-marinas-canarias-tienen-microplasticos-estomago-5677991/" class="btn btn-primary">Ir al sitio web</a>
-                  </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-  
-      <!--Pie de pagina-->
-      <div class="container">
-        <div class="row" id="footer">
-          <div class="col-lg-4 col-md-12 col-sm-12">
-            <br>
-            <p><strong>Redes Sociales</strong></p>
-            <p>YouTube: SAE W</p>
-            <p>Instagram: @saew</p>
-            <p>Twitter: sae_w</p>
-          </div>
-          <div class="col-lg-4 col-md-12 col-sm-12">
-            <p><strong>Contacto</strong></p>
-            <p>Teléfono: 123456789</p>
-            <p>Email: saew.2025@gmail.com</p>
-          </div>
-          <div class="col-lg-4 col-md-12 col-sm-12">
-            <p><strong>SAE W</strong></p>
-          </div>
         </div>
-      </div>
+    </div>
+
+    <!-- Pie de página -->
+
+        <div class="row" id="footer">
+            <div class="col-lg-4 col-md-12 col-sm-12 text-center text-md-start">
+                <p><strong>Redes Sociales</strong></p>
+                <p>YouTube: SAE W</p>
+                <p>Instagram: @saew</p>
+                <p>Twitter: sae_w</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 text-center text-md-start">
+                <p><strong>Contacto</strong></p>
+                <p>Teléfono: 123456789</p>
+                <p>Email: saew.2025@gmail.com</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 text-center text-md-start">
+                <p><strong>SAE W</strong></p>
+            </div>
+        </div>
+
 </body>
 </html>
 
