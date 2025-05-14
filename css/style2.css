@@ -13,19 +13,63 @@
     border-radius: 60%;
 }
 
+@font-face { /* Sirve para insertar una fuente de Google Font */
+    font-family: Roboto-Italic-VariableFont_wdth; /* Especifica el nombre de la fuente */
+    src: url(../fontype/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf); /* Especifica la URL de la carpeta donde se descargo previamente la fuente de Goggle Font */
+    font-family: Comfortaa-VariableFont_wght;
+    src: url(../fontype/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+#titulos {
+    font-family: Comfortaa-VariableFont_wght;
+}
+
+#parrafo {
+    font-family: Roboto-Italic-VariableFont_wdth;
+}
+
 h1 {
     text-align: center;
 }
 
-#footer {
-    background-color:rgb(52, 53, 53);
-    color: #fdfdfd;
-    width: 100%; /* Ocupa todo el ancho de la página */
-    background-size: cover; /* Asegura que la imagen cubra todo el div */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0; /* Asegúrate de que no haya margen */
-    padding: 0; /* Asegúrate de que no haya padding */
+h2 {
+    text-align: center;
 }
 
+#fondo-parrafo {
+    background-color: rgba(255, 255, 255, 0.89);
+    border-radius: 10px;
+}
+
+.imagen-ana {
+    width: 300px;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-luis {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 2rem; /* Para que haya margen arriba */
+    padding-bottom: 2rem; /* Para que haya espacio abajo */
+  }
+
+  .iconos {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+  }
+
+  .icono_menu {
+    height: 40px;
+    width: 40px;
+}

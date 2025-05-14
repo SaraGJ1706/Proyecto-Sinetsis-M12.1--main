@@ -13,10 +13,25 @@
     background-size: cover;
 }
 
+@font-face { /* Sirve para insertar una fuente de Google Font */
+    font-family: Roboto-Italic-VariableFont_wdth; /* Especifica el nombre de la fuente */
+    src: url(../fontype/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf); /* Especifica la URL de la carpeta donde se descargo previamente la fuente de Goggle Font */
+    font-family: Comfortaa-VariableFont_wght;
+    src: url(../fontype/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
 .texto {
     color: #000000;
     text-align: center;
     font-size: 40px;
+}
+
+#titulos {
+    font-family: Comfortaa-VariableFont_wght;
+}
+
+#parrafo {
+    font-family: Roboto-Italic-VariableFont_wdth;
 }
 
 #encabezado {
@@ -32,7 +47,7 @@
     margin: 0; /* Asegúrate de que no haya margen */
     padding: 0; /* Asegúrate de que no haya padding */
     text-align: center;
- 
+    font-family: Comfortaa-VariableFont_wght;
 }
 
 .icono_menu {
@@ -63,23 +78,25 @@ img {
     justify-content: center;
 }
 
-#footer {
-    background-color:rgb(52, 53, 53);
-    color: #fdfdfd;
-    width: 100%; /* Ocupa todo el ancho de la página */
-    background-size: cover; /* Asegura que la imagen cubra todo el div */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0; /* Asegúrate de que no haya margen */
-    padding: 0; /* Asegúrate de que no haya padding */
-}
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 2rem; /* Para que haya margen arriba */
+    padding-bottom: 2rem; /* Para que haya espacio abajo */
+  }
 
 .container {
     justify-content: center;
     align-items: center;
     justify-content: space-between;
 }
+
+.iconos {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+  }
 
 
 

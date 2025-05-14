@@ -14,23 +14,23 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
           <img src="./img/icono.png" class="icono_menu img-fluid">
-          <a class="navbar-brand" href="#">ONG - SEA W</a>
+          <a class="navbar-brand" href="#" id="parrafo">ONG - SEA W</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Página principal</a>
+                <a class="nav-link active" aria-current="page" href="#" id="parrafo">Página principal</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" id="parrafo" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Idiomas
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Español <img src="./img/español.jpg" class="bandera_idioma img-fluid"></a></li>
-                  <li><a class="dropdown-item" href="#">Catalán <img src="./img/catalan.jpg" class="bandera_idioma img-fluid"></a></li>
-                  <li><a class="dropdown-item" href="#">Inglés <img src="./img/ingles.jpg" class="bandera_idioma img-fluid"></a></li>
+                  <li><a class="dropdown-item" href="#" id="parrafo">Español <img src="./img/español.jpg" class="bandera_idioma img-fluid"></a></li>
+                  <li><a class="dropdown-item" href="#" id="parrafo">Catalán <img src="./img/catalan.jpg" class="bandera_idioma img-fluid"></a></li>
+                  <li><a class="dropdown-item" href="#" id="parrafo">Inglés <img src="./img/ingles.jpg" class="bandera_idioma img-fluid"></a></li>
                 </ul>
               </li>
             </ul>
@@ -52,38 +52,44 @@
     <!-- Cuatro cartas de los temas -->
     <div class="container">
         <div class="col-lg-12">
-            <h2 class="texto text-center">Acerca de la ONG</h2>
+            <h2 class="texto text-center" id="titulos">Acerca de la ONG</h2>
         </div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 g-4">
             <div class="col">
                 <div class="card resaltado">
                     <div class="card-body">
-                        <h5 class="card-title">Quienes somos</h5>
-                        <p class="card-text">Información sobre quienes somos como ONG y que queremos conseguir.</p>
+                        <a href="./quienes_somos/quienes_somos.html" style="text-decoration: none; color: inherit;">
+                            <h5 class="card-title" id="titulos">Quienes somos</h5>
+                            <p class="card-text" id="parrafo">Información sobre quienes somos como ONG y que queremos conseguir.</p>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card resaltado">
                     <div class="card-body">
-                        <h5 class="card-title">Qué hacemos</h5>
-                        <p class="card-text">Apartado en el cual explicamos qué hacemos y cuál es nuestro objetivo como ONG.</p>
+                        <a href="./que_hacemos/que_hacemos.html" style="text-decoration: none; color: inherit;">
+                            <h5 class="card-title" id="titulos">Qué hacemos</h5>
+                            <p class="card-text" id="parrafo">Apartado en el cual explicamos qué hacemos y cuál es nuestro objetivo como ONG.</p>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card resaltado">
                     <div class="card-body">
-                        <h5 class="card-title">Actividades</h5>
-                        <p class="card-text">Apartado informativo sobre las actividades solidarias que queremos realizar.</p>
+                      <a href="./actividades/actividades.html" style="text-decoration: none; color: inherit;">
+                          <h5 class="card-title" id="titulos">Actividades</h5>
+                          <p class="card-text" id="parrafo">Apartado informativo sobre las actividades solidarias que queremos realizar.</p>
+                      </a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card resaltado">
                     <div class="card-body">
-                        <h5 class="card-title">Donaciones</h5>
-                        <p class="card-text">Apartado de donaciones y tienda solidaria de nuestra ONG.</p>
+                        <h5 class="card-title" id="titulos">Donaciones</h5>
+                        <p class="card-text" id="parrafo">Apartado de donaciones y tienda solidaria de nuestra ONG.</p>
                     </div>
                 </div>
             </div>
@@ -95,15 +101,15 @@
     <!-- Noticias -->
     <div class="container">
         <div class="col-lg-12">
-            <h2 class="texto text-center">Noticias sobre microplásticos</h2>
+            <h2 class="texto text-center" id="titulos">Noticias sobre microplásticos</h2>
         </div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
             <div class="col">
                 <div class="card" style="width: 100%;">
                     <img src="./img/noticia1.jpg" class="card-img-top img-fluid" alt="noticia">
                     <div class="card-body">
-                    <h5 class="card-title">La Fosa de las Marianas, un saco de microplásticos a 6.800 metros de profundidad</h5>
-                    <p class="card-text">La zona marina más profunda conocida de la Tierra, la Fosa de las Marianas, situada en el Pacifico, alberga una media 13.500 partículas de plástico por cada metro cúbico de agua.</p>
+                    <h5 class="card-title" id="titulos">La Fosa de las Marianas, un saco de microplásticos a 6.800 metros de profundidad</h5>
+                    <p class="card-text" id="parrafo">La zona marina más profunda conocida de la Tierra, la Fosa de las Marianas, situada en el Pacifico, alberga una media 13.500 partículas de plástico por cada metro cúbico de agua.</p>
                     <br>
                     <br>
                     <a href="https://www.20minutos.es/noticia/5705566/0/fosa-las-marianas-un-saco-microplasticos-6-800-metros-profundidad/" class="btn btn-primary">Ir al sitio web</a>
@@ -114,8 +120,8 @@
                 <div class="card" style="width: 100%;">
                     <img src="./img/noticia2.jpg" class="card-img-top img-fluid" alt="noticia">
                     <div class="card-body">
-                    <h5 class="card-title">Canarias recibe basuras marinas de Estados Unidos y, sorpresa, también de Groenlandia</h5>
-                    <p class="card-text">La travesía entre Canarias y América durante la época de la navegación clásica, especialmente desde el viaje de Cristóbal Colón. Ambos elementos fueron esenciales para el éxito de las expediciones transatlánticas y definieron las rutas marítimas entre Europa y el Nuevo Mundo.</p>
+                    <h5 class="card-title" id="titulos">Canarias recibe basuras marinas de Estados Unidos y, sorpresa, también de Groenlandia</h5>
+                    <p class="card-text" id="parrafo">La travesía entre Canarias y América durante la época de la navegación clásica, especialmente desde el viaje de Cristóbal Colón. Ambos elementos fueron esenciales para el éxito de las expediciones transatlánticas y definieron las rutas marítimas entre Europa y el Nuevo Mundo.</p>
                     <br>
                     <br>
                     <a href="https://www.20minutos.es/medio-ambiente/blogs/cronicaverde/canarias-recibe-basuras-marinas-estados-unidos-sorpresa-tambien-groenlandia-5701653/" class="btn btn-primary">Ir al sitio web</a>
@@ -126,8 +132,8 @@
                 <div class="card" style="width: 100%;">
                     <img src="./img/noticia3.jpg" class="card-img-top img-fluid" alt="noticia">
                     <div class="card-body">
-                    <h5 class="card-title">Hallan una "alarmante" concentración de microplásticos en 14 ríos europeos, del Ebro al Támesis</h5>
-                    <p class="card-text">Un compendio de catorce estudios científicos publicados este jueves han han detectado niveles alarmantes de microplásticos en los principales ríos de Europa.La contaminación está presente en todos los ríos europeos estudiados, afirmó el científico francés Jean-François Ghiglione, quien coordinó la operación a gran escala en nueve ríos importantes.</p>
+                    <h5 class="card-title" id="titulos">Hallan una "alarmante" concentración de microplásticos en 14 ríos europeos, del Ebro al Támesis</h5>
+                    <p class="card-text" id="parrafo">Un compendio de catorce estudios científicos publicados este jueves han han detectado niveles alarmantes de microplásticos en los principales ríos de Europa.La contaminación está presente en todos los ríos europeos estudiados, afirmó el científico francés Jean-François Ghiglione, quien coordinó la operación a gran escala en nueve ríos importantes.</p>
                     <a href="https://www.20minutos.es/internacional/hallan-una-alarmante-concentracion-microplasticos-14-rios-europeos-ebro-tamesis-5698472/" class="btn btn-primary">Ir al sitio web</a>
                     </div>
                 </div>
@@ -136,8 +142,8 @@
                 <div class="card" style="width: 100%;">
                     <img src="./img/noticia4.jpg" class="card-img-top img-fluid" alt="noticia">
                     <div class="card-body">
-                    <h5 class="card-title">Alerta plasticosis: el 90% de los pollos de las aves marinas de Canarias tienen microplásticos en el estómago</h5>
-                    <p class="card-text">l mar se está convirtiendo en un inmenso basurero donde ya casi hay más plásticos que pescados. Un problema que afecta gravemente a su biodiversidad, provocando todo tipo de problemas e incluso enfermedades hasta la fecha desconocidas y que los expertos han comenzado a denominar "plasticosis". </p>
+                    <h5 class="card-title" id="titulos">Alerta plasticosis: el 90% de los pollos de las aves marinas de Canarias tienen microplásticos en el estómago</h5>
+                    <p class="card-text" id="parrafo">l mar se está convirtiendo en un inmenso basurero donde ya casi hay más plásticos que pescados. Un problema que afecta gravemente a su biodiversidad, provocando todo tipo de problemas e incluso enfermedades hasta la fecha desconocidas y que los expertos han comenzado a denominar "plasticosis". </p>
                     <a href="https://www.20minutos.es/medio-ambiente/blogs/cronicaverde/alerta-plasticosis-90-las-aves-marinas-canarias-tienen-microplasticos-estomago-5677991/" class="btn btn-primary">Ir al sitio web</a>
                     </div>
                 </div>
@@ -147,22 +153,39 @@
 
     <!-- Pie de página -->
 
-        <div class="row" id="footer">
-            <div class="col-lg-4 col-md-12 col-sm-12 text-center text-md-start">
-                <p><strong>Redes Sociales</strong></p>
-                <p>YouTube: SAE W</p>
-                <p>Instagram: @saew</p>
-                <p>Twitter: sae_w</p>
-            </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 text-center text-md-start">
-                <p><strong>Contacto</strong></p>
-                <p>Teléfono: 123456789</p>
-                <p>Email: saew.2025@gmail.com</p>
-            </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 text-center text-md-start">
-                <p><strong>SAE W</strong></p>
-            </div>
+  <!-- FOOTER -->
+  <footer class="footer text-white pt-4 mt-auto">
+    <div class="container">
+      <div class="row text-center">
+        
+        <!-- Información de contacto -->
+        <div class="col-lg-6 col-sm-12 col-12">
+          <h5 id="parrafo">Contacto</h5>
+          <p id="parrafo">SAE W</p>
+          <p id="parrafo">+34 622 42 06 84</p>
+          <a href="mailto:442514.joan23@fje.edu" class="text-decoration-none text-info" id="parrafo"> <!-- Para enviar correo al clicar -->
+            442514.joan23@fje.edu
+          </a>
         </div>
+
+        <!-- Enlaces a redes sociales -->
+        <div class="col-lg-6 col-sm-12 col-12">
+          <div class="d-flex justify-content-center gap-3">
+            <a href="https://www.twitter.com/" target="_blank">
+              <img src="./img/twitter.png" alt="twitter" class="iconos">
+            </a>
+            <a href="https://www.youtube.com/@EstebanJoan23" target="_blank">
+              <img src="./img/youtube.png" alt="YouTube" class="iconos">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="./img/instagram.png" alt="Instagram" class="iconos">
+              </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
