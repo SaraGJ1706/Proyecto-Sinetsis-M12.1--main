@@ -26,6 +26,10 @@
 
 #parrafo {
     font-family: Roboto-Italic-VariableFont_wdth;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
 }
 
 h1 {
@@ -39,11 +43,12 @@ h2 {
 #fondo-parrafo {
     background-color: rgba(255, 255, 255, 0.89);
     border-radius: 10px;
+    font-family: Roboto-Italic-VariableFont_wdth;
 }
 
 .imagen-ana {
-    width: 300px;
-    height: 370px;
+    width: 200px;
+    height: 270px;
     justify-content: center;
     align-items: center;
 }
@@ -72,4 +77,59 @@ h2 {
   .icono_menu {
     height: 40px;
     width: 40px;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.precio {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+#margen {
+    margin-top: 27px;
+}
+
+
+.img_islas {
+    width: 450px;
+    height: 300px;
+  }
+.img_3r {
+    width: 150px;
+    height: 150px;
+  }
+
+
+.img_reciclar{
+    width: 150px;
+    height: 165px;
 }
