@@ -97,48 +97,38 @@
           <h2 id="titulos">Donaciones</h2>
         </div>
         <div class="container py-5">
-        <h2 class="text-center mb-4" id="titulos">Formulario de Donaciones</h2>
+       <h2 class="titulo-centrado margen-inferior" id="titulos">Formulario de Pago</h2>
 
-    <form class="mx-auto" style="max-width: 400px;" action="confirmacion.html" method="POST">
-      <!-- Nombre: solo letras y espacios -->
-      <div class="mb-3">
-        <label for="nombre" class="form-label"  id="parrafo">Nombre</label>
-        <input type="text" class="form-control" id="nombre" name="nombre"
-               placeholder="Tu nombre" required
-               pattern="[A-Za-zÁÉÍÓÚÑáéíóúñ\s]{1,40}"
-               title="Solo letras y espacios (máx. 40 caracteres)">
-      </div>
+<form class="centrado" style="max-width: 400px;" action="confirmacion.html" method="POST">
+  <!-- Nombre -->
+  <div class="espacio">
+    <label for="nombre" class="etiqueta" id="parrafo">Nombre</label>
+    <input type="text" class="campo-texto" id="nombre" name="nombre" placeholder="Tu nombre" required>
+  </div>
 
-      <!-- Número de tarjeta: 16 dígitos seguidos -->
-      <div class="mb-3">
-        <label for="tarjeta" class="form-label" id="parrafo">Número de Tarjeta</label>
-        <input type="text" class="form-control" id="tarjeta" name="tarjeta"
-               placeholder="0000000000000000" required
-               pattern="\d{16}" maxlength="16"
-               title="Introduce exactamente 16 dígitos sin espacios">
-      </div>
+  <!-- Número de tarjeta -->
+  <div class="espacio">
+    <label for="tarjeta" class="etiqueta" id="parrafo">Número de Tarjeta</label>
+    <input type="text" class="campo-texto" id="tarjeta" name="tarjeta" placeholder="0000000000000000" required maxlength="16" title="Introduce exactamente 16 dígitos sin espacios">
+  </div>
 
-      <div class="row">
-        <!-- Vencimiento: MM/AA -->
-        <div class="col-sm-6 mb-3">
-          <label for="fecha" class="form-label" id="parrafo">Vencimiento</label>
-          <input type="text" class="form-control" id="fecha" name="fecha"
-                 placeholder="MM/AA" required
-                 pattern="(0[1-9]|1[0-2])\/\d{2}" maxlength="5"
-                 title="Formato MM/AA, por ejemplo 05/25">
-        </div>
+  <div class="fila">
+    <!-- Fecha de nacimiento -->
+    <div class="columna espacio">
+      <label for="fecha" class="etiqueta" id="parrafo">Fecha de nacimiento</label>
+      <input type="text" class="campo-texto" id="fecha" name="fecha"
+             placeholder="MM/AA" required maxlength="5" title="Formato MM/AA, por ejemplo 05/25">
+    </div>
 
-        <!-- Cantidad a donar -->
-        <div class="col-sm-6 mb-3">
-          <label for="cantidad" class="form-label" id="parrafo">Cantidad a donar (€)</label>
-          <input type="number" class="form-control" id="cantidad" name="cantidad"
-                placeholder="Ej: 20" required min="1" step="any"
-                title="Introduce la cantidad que deseas donar">
-        </div>
-      </div>
+    <!-- Cantidad a donar -->
+    <div class="columna espacio">
+      <label for="cantidad" class="etiqueta" id="parrafo">Cantidad a donar (€)</label>
+      <input type="number" class="campo-texto" id="cantidad" name="cantidad" placeholder="€" required min="1" title="Introduce la cantidad que deseas donar">
+    </div>
+  </div>
 
-      <button type="submit" class="btn btn-success w-100" id="parrafo">Pagar</button>
-    </form>
+  <button type="submit" class="boton-verde ancho-total" id="parrafo">Pagar</button>
+</form>
   </div>
       </div>
 

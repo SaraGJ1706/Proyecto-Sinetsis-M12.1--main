@@ -1,29 +1,34 @@
+/* Fondo de la página */
 .body{
-    background-image: url(../img/fondo_web.jpeg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../img/fondo_web.jpeg); /* Imagen de fondo */
+    background-attachment: fixed; /* Fondo fijo al hacer scroll */
+    background-position: center; /* Centrar imagen de fondo */
+    background-repeat: no-repeat; /* No repetir imagen */
+    background-size: cover; /* Cubrir todo el fondo */
 }
 
+/* Estilo para las banderas de idioma */
 .bandera_idioma
 {
-    width: 20px;
-    height: 20px;
-    border-radius: 60%;
+    width: 20px; /* Ancho de la bandera */
+    height: 20px; /* Alto de la bandera */
+    border-radius: 60%; /* Bordes redondeados */
 }
 
+/* Fuentes personalizadas */
 @font-face { /* Sirve para insertar una fuente de Google Font */
-    font-family: Roboto-Italic-VariableFont_wdth; /* Especifica el nombre de la fuente */
-    src: url(../fontype/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf); /* Especifica la URL de la carpeta donde se descargo previamente la fuente de Goggle Font */
+    font-family: Roboto-Italic-VariableFont_wdth; /* Nombre de la fuente */
+    src: url(../fontype/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf); /* Ruta de la fuente */
     font-family: Comfortaa-VariableFont_wght;
     src: url(../fontype/Comfortaa/Comfortaa-VariableFont_wght.ttf);
 }
 
+/* Fuente para los títulos */
 #titulos {
     font-family: Comfortaa-VariableFont_wght;
 }
 
+/* Fuente y márgenes para los párrafos */
 #parrafo {
     font-family: Roboto-Italic-VariableFont_wdth;
     margin-top: 10px;
@@ -32,104 +37,188 @@
     margin-bottom: 15px;
 }
 
+/* Centrar títulos h1 */
 h1 {
     text-align: center;
 }
 
+/* Centrar títulos h2 */
 h2 {
     text-align: center;
 }
 
+/* Fondo y estilo para ciertos párrafos */
 #fondo-parrafo {
-    background-color: rgba(255, 255, 255, 0.89);
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.89); /* Fondo blanco semitransparente */
+    border-radius: 10px; /* Bordes redondeados */
     font-family: Roboto-Italic-VariableFont_wdth;
 }
 
-.imagen-ana {
-    width: 200px;
-    height: 270px;
-    justify-content: center;
-    align-items: center;
-}
-
-.imagen-luis {
-    width: 200px;
-    height: 200px;
-    justify-content: center;
-    align-items: center;
-}
-
+/* Estilo para el footer */
 .footer {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding-top: 2rem; /* Para que haya margen arriba */
-    padding-bottom: 2rem; /* Para que haya espacio abajo */
-  }
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    text-align: center; /* Centrar texto */
+    padding-top: 2rem; /* Espacio arriba */
+    padding-bottom: 2rem; /* Espacio abajo */
+}
 
-  .iconos {
+/* Tamaño de los iconos */
+.iconos {
     width: 30px;
     height: 30px;
     margin-bottom: 15px;
-  }
+}
 
-  .icono_menu {
+/* Tamaño del icono del menú */
+.icono_menu {
     height: 40px;
     width: 40px;
 }
 
+/* Transición para las tarjetas */
 .card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: scale(1.03); /* Aumenta el tamaño */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Sombra */
 }
 
+/* Estilo para el precio */
 .precio {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #28a745;
+  font-size: 10px; /* Tamaño de fuente */
+  font-weight: bold; /* Negrita */
+  color: #28a745; /* Verde */
 }
 
-.btn-primary {
-  background-color: #007bff;
-  border: none;
-  transition: background-color 0.3s ease;
+.titulo-centrado {
+  text-align: center; /* Centra el texto del título */
 }
 
-.btn-primary:hover {
-  background-color: #0056b3;
+.margen-inferior {
+  margin-bottom: 1rem; /* Agrega un margen inferior de 1rem para espaciar elementos */
 }
 
-.btn-success {
-  background-color: #28a745;
-  border: none;
-  transition: background-color 0.3s ease;
+.centrado {
+  margin: auto; /* Centra el elemento dentro de su contenedor */
 }
 
-.btn-success:hover {
-  background-color: #218838;
+.espacio {
+  margin-bottom: 1rem; /* Crea espacio debajo del elemento */
 }
 
+.etiqueta {
+  font-weight: bold; /* Hace que el texto de la etiqueta sea más grueso */
+}
+
+.campo-texto {
+  width: 100%; /* Hace que el campo de entrada ocupe todo el ancho disponible */
+  padding: 0.5rem; /* Agrega espacio interno para mejorar la apariencia */
+  border: 1px solid #ccc; /* Define un borde gris claro */
+  border-radius: 4px; /* Redondea las esquinas del campo */
+}
+
+.fila {
+  display: flex; /* Usa el modelo de caja flexible para organizar elementos en fila */
+  gap: 1rem; /* Espaciado entre elementos dentro de la fila */
+}
+
+.columna {
+  flex: 1; /* Hace que cada columna ocupe el mismo espacio dentro de la fila */
+}
+
+.boton-verde {
+  background-color: #28a745; /* Define el color de fondo como verde */
+  border: none; /* Elimina el borde */
+  transition: background-color 0.3s ease; /* Agrega una transición suave al color de fondo */
+}
+
+.boton-verde:hover {
+  background-color: #218838; /* Cambia el color al pasar el mouse por encima */
+}
+
+.ancho-total {
+  width: 100%; /* Hace que el elemento ocupe todo el ancho disponible */
+}
+
+
+/* Margen superior personalizado */
 #margen {
     margin-top: 27px;
 }
 
-
+/* Tamaño de la imagen de islas */
 .img_islas {
     width: 450px;
     height: 300px;
-  }
+    display: block; /* Hace que la imagen sea un bloque */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente */
+}
+
+/* Tamaño de la imagen 3R */
 .img_3r {
-    width: 150px;
+    width: 100px;
     height: 150px;
-  }
+    display: block; /* Hace que la imagen sea un bloque */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente */
+}
 
+.img_playa {
+    width: 480px;
+    height: 300px;
+    display: block; /* Hace que la imagen sea un bloque */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente */
+}
 
-.img_reciclar{
-    width: 150px;
-    height: 165px;
+.img_vision {
+    width: 550px;
+    height: 250px;
+    display: block; /* Hace que la imagen sea un bloque */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente */
+    border-radius: 7px;
+}
+
+.img_mision {
+    width: 555px;
+    height: 300px;
+    display: block; /* Hace que la imagen sea un bloque */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente */
+    border-radius: 7px;
+}
+
+.plastico-oceano {
+    width: 400px;
+    height: 450px;
+    height: auto;
+    display: block; /* Hace que la imagen sea un bloque */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente */
+    border-radius: 7px;
+}
+
+.recogida {
+    width: 400px;
+    height: 450px;
+    height: auto;
+    display: block; /* Hace que la imagen sea un bloque */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente */
+    border-radius: 7px;
+}
+
+.animales-plastico {
+    width: 400px;
+    height: 450px;
+    height: auto;
+    display: block; /* Hace que la imagen sea un bloque */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente */
+    border-radius: 7px;
 }
