@@ -1,16 +1,16 @@
-.bandera_idioma
-{
+/*Bandera de idioma de la barra de busqueda*/
+.bandera_idioma {
     width: 20px;
     height: 20px;
     border-radius: 60%;
 }
 
-.body{
-    background-image: url(../img/fondo_web.jpeg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.body {
+    background-image: url(../img/fondo_web.jpeg); /* Establece una imagen de fondo para toda la página */
+    background-attachment: fixed; /* Hace que el fondo permanezca fijo al hacer scroll */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el área visible */
 }
 
 @font-face { /* Sirve para insertar una fuente de Google Font */
@@ -20,20 +20,24 @@
     src: url(../fontype/Comfortaa/Comfortaa-VariableFont_wght.ttf);
 }
 
+/* Estilo para los encabezados h2 */
 .texto {
     color: #000000;
     text-align: center;
     font-size: 40px;
 }
 
+/* Tipografia para los titulos */
 #titulos {
     font-family: Comfortaa-VariableFont_wght;
 }
 
+/* Tipografia para los parrafos */
 #parrafo {
     font-family: Roboto-Italic-VariableFont_wdth;
 }
 
+/* Estilo para el encabezado */
 #encabezado {
     background-image: url(../img/encabezado.png);
     color: #fdfdfd;
@@ -50,27 +54,19 @@
     font-family: Comfortaa-VariableFont_wght;
 }
 
+/* Medidas para los iconos del desplegable de idiomas */
 .icono_menu {
     height: 40px;
     width: 40px;
 }
 
-#accordionFlushExample {
-    margin-top: 48px;
-    color: rgba(240, 248, 255, 0.644);
-}
-
+/* Resalta las noticias y las cajas con hipervínculo */
 .resaltado:hover {
     transition: all 0.3s ease;
     transform: scale(1.1);
-    
-  }
-
-#margen {
-    margin-left: 300px; /* Espacio a la izquierda */
-    margin-right: 300px; /* Espacio a la derecha */
 }
 
+/* Imagens de 200px y alineadas */
 img {
     width: 200px;
     height: 200px;
@@ -78,6 +74,7 @@ img {
     justify-content: center;
 }
 
+/* Estilo del pie de pagina */
 .footer {
     background-color: #000;
     color: #fff;
@@ -86,12 +83,15 @@ img {
     padding-bottom: 2rem; /* Para que haya espacio abajo */
   }
 
+/* todo lo que hay dentro del container, esta centrado */
 .container {
+    display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
 }
 
+/* Medidas y alineacion de los logos con las redes sociales */
 .iconos {
     width: 30px;
     height: 30px;

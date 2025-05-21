@@ -88,7 +88,7 @@ h2 {
 
 /* Estilo para el precio */
 .precio {
-  font-size: 10px; /* Tamaño de fuente */
+  font-size: 30px; /* Tamaño de fuente */
   font-weight: bold; /* Negrita */
   color: #28a745; /* Verde */
 }
@@ -98,7 +98,7 @@ h2 {
 }
 
 .margen-inferior {
-  margin-bottom: 1rem; /* Agrega un margen inferior de 1rem para espaciar elementos */
+  margin-bottom: 10px; /* Agrega un margen inferior de 1rem para espaciar elementos */
 }
 
 .centrado {
@@ -106,7 +106,7 @@ h2 {
 }
 
 .espacio {
-  margin-bottom: 1rem; /* Crea espacio debajo del elemento */
+  margin-bottom: 10px; /* Crea espacio debajo del elemento */
 }
 
 .etiqueta {
@@ -122,7 +122,7 @@ h2 {
 
 .fila {
   display: flex; /* Usa el modelo de caja flexible para organizar elementos en fila */
-  gap: 1rem; /* Espaciado entre elementos dentro de la fila */
+  gap: 10px; /* Espaciado entre elementos dentro de la fila */
 }
 
 .columna {
@@ -221,4 +221,42 @@ h2 {
     margin-left: auto; /* Centra horizontalmente */
     margin-right: auto; /* Centra horizontalmente */
     border-radius: 7px;
+}
+
+.horarios td,tr {
+    border: 2px rgb(0, 5, 4) solid;
+    text-align: center;
+    width: 100px;
+    margin-left: 150px;
+    
+}
+
+thead {
+    background-color: rgba(47, 188, 63, 0.932);
+}
+
+.tarde {
+    background-color: rgba(45, 194, 29, 0.484);
+}
+
+.Mañana {
+    background-color:rgba(131, 227, 13, 0.281)
+}
+
+.libre {
+    background-color: rgba(179, 177, 177, 0.601);
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    width: 100%; /* Hace que la tabla ocupe todo el ancho disponible */
+}
+
+h2 {
+    text-align: center;
+}
+
+.horas {
+    background-color: rgba(246, 243, 238, 0.678);
 }
