@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONG - SEA W</title>
-    <!-- icono de la web -->
+    <title>ONG - SAE W</title>
     <link rel="icon" href="./img/icono.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="body">
-    <!-- Barra de busqueda con un desplegable para selecionar los idiomas -->
-    <nav class="navbar navbar-expand-lg bg-body-terciary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
           <img src="./img/icono.png" class="icono_menu img-fluid">
-          <a class="navbar-brand" id="parrafo">ONG - SEA W</a>
+          <a class="navbar-brand" id="parrafo">ONG - SAE W</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,9 +27,8 @@
                 <a class="nav-link dropdown-toggle" id="parrafo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Idiomas
                 </a>
-                <!-- Menu desplegable de idiomas con su respectivo link a su html con la traduccion -->
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./index_castellano.html" id="parrafo">Español <img src="./img/español.jpg" class="bandera_idioma img-fluid"></a></li>
+                  <li><a class="dropdown-item" href="./index.html" id="parrafo">Español <img src="./img/español.jpg" class="bandera_idioma img-fluid"></a></li>
                   <li><a class="dropdown-item" href="./index_catala.html" id="parrafo">Catalán <img src="./img/catalan.jpg" class="bandera_idioma img-fluid"></a></li>
                   <li><a class="dropdown-item" href="./index_ingles.html" id="parrafo">Inglés <img src="./img/ingles.jpg" class="bandera_idioma img-fluid"></a></li>
                 </ul>
@@ -44,94 +42,82 @@
         </div>
       </nav>
 
-    <!-- Encabezado principal con título centrado -->
-<div id="encabezado" class="text-center">
-    <h1>ONG - SEA W</h1>
-</div>
-
-<br><br><br>
-
-<!-- Sección de presentación de la ONG con tarjetas temáticas -->
-<div class="container">
-    <!-- Título de la sección -->
-    <div class="col-lg-12">
-        <h2 class="texto text-center" id="titulos">Acerca de la ONG</h2>
+    <!-- Encabezado -->
+    <div id="encabezado" class="text-center">
+        <h1>ONG - SAE W</h1>
     </div>
-    <!-- Fila de tarjetas responsive (2 por fila en pantallas grandes) -->
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 g-4">
-        <!-- Tarjeta: Quienes somos -->
-        <div class="col">
-            <div class="card resaltado">
-                <div class="card-body">
-                    <a href="./quienes_somos/quienes_somos.html" style="text-decoration: none; color: inherit;">
-                        <h5 class="card-title" id="titulos">Quienes somos</h5>
-                        <p class="card-text" id="parrafo">Información sobre quienes somos como ONG y que queremos conseguir.</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- Tarjeta: Qué hacemos -->
-        <div class="col">
-            <div class="card resaltado">
-                <div class="card-body">
-                    <a href="./que_hacemos/que_hacemos.html" style="text-decoration: none; color: inherit;">
-                        <h5 class="card-title" id="titulos">Qué hacemos</h5>
-                        <p class="card-text" id="parrafo">Apartado en el cual explicamos qué hacemos y cuál es nuestro objetivo como ONG.</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- Tarjeta: Actividades -->
-        <div class="col">
-            <div class="card resaltado">
-                <div class="card-body">
-                  <a href="./actividades/actividades.html" style="text-decoration: none; color: inherit;">
-                      <h5 class="card-title" id="titulos">Actividades</h5>
-                      <p class="card-text" id="parrafo">Apartado informativo sobre las actividades solidarias que queremos realizar.</p>
-                  </a>
-                </div>
-            </div>
-        </div>
-        <!-- Tarjeta: Donaciones -->
-        <div class="col">
-            <div class="card resaltado">
-                <div class="card-body">
-                  <a href="./donaciones_tienda/donaciones_tienda.html" style="text-decoration: none; color: inherit;">
-                    <h5 class="card-title" id="titulos">Donaciones</h5>
-                    <p class="card-text" id="parrafo">Apartado de donaciones y tienda solidaria de nuestra ONG.</p>
-                  </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<br><br>
+    <br><br><br>
 
-<!-- Sección de noticias sobre microplásticos -->
-<div class="container">
-    <!-- Título de la sección -->
-    <div class="col-lg-12">
-        <h2 class="texto text-center" id="titulos">Noticias sobre microplásticos</h2>
-    </div>
-    <!-- Fila de tarjetas de noticias, responsive (hasta 4 por fila en pantallas grandes) -->
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
-        <!-- Tarjeta de noticia 1 -->
-        <div class="col">
-            <div class="card resaltado" style="width: 100%;">
-                <img src="./img/noticia1.jpg" class="card-img-top img-fluid" alt="noticia">
-                <div class="card-body">
-                <h5 class="card-title" id="titulos">La Fosa de las Marianas, un saco de microplásticos a 6.800 metros de profundidad</h5>
-                <p class="card-text" id="parrafo">La zona marina más profunda conocida de la Tierra, la Fosa de las Marianas, situada en el Pacifico, alberga una media 13.500 partículas de plástico por cada metro cúbico de agua.</p>
-                <br>
-                <br>
-                <a href="https://www.20minutos.es/noticia/5705566/0/fosa-las-marianas-un-saco-microplasticos-6-800-metros-profundidad/" class="btn btn-primary">Ir al sitio web</a>
+    <!-- Cuatro cartas de los temas -->
+    <div class="container">
+        <div class="col-lg-12">
+            <h2 class="texto text-center" id="titulos">Acerca de la ONG</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 g-4">
+            <div class="col">
+                <div class="card resaltado">
+                    <div class="card-body">
+                        <a href="./quienes_somos/quienes_somos.html" style="text-decoration: none; color: inherit;">
+                            <h5 class="card-title" id="titulos">Quienes somos</h5>
+                            <p class="card-text" id="parrafo">Información sobre quienes somos como ONG y que queremos conseguir.</p>
+                        </a>
                     </div>
                 </div>
             </div>
-            <!-- Tarjeta de noticia 2 -->
             <div class="col">
-                <div class="card resaltado" style="width: 100%;">
+                <div class="card resaltado">
+                    <div class="card-body">
+                        <a href="./que_hacemos/que_hacemos.html" style="text-decoration: none; color: inherit;">
+                            <h5 class="card-title" id="titulos">Qué hacemos</h5>
+                            <p class="card-text" id="parrafo">Apartado en el cual explicamos qué hacemos y cuál es nuestro objetivo como ONG.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card resaltado">
+                    <div class="card-body">
+                      <a href="./actividades/actividades.html" style="text-decoration: none; color: inherit;">
+                          <h5 class="card-title" id="titulos">Actividades</h5>
+                          <p class="card-text" id="parrafo">Apartado informativo sobre las actividades solidarias que queremos realizar.</p>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card resaltado">
+                    <div class="card-body">
+                        <h5 class="card-title" id="titulos">Donaciones</h5>
+                        <p class="card-text" id="parrafo">Apartado de donaciones y tienda solidaria de nuestra ONG.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!-- Noticias -->
+    <div class="container">
+        <div class="col-lg-12">
+            <h2 class="texto text-center" id="titulos">Noticias sobre microplásticos</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card" style="width: 100%;">
+                    <img src="./img/noticia1.jpg" class="card-img-top img-fluid" alt="noticia">
+                    <div class="card-body">
+                    <h5 class="card-title" id="titulos">La Fosa de las Marianas, un saco de microplásticos a 6.800 metros de profundidad</h5>
+                    <p class="card-text" id="parrafo">La zona marina más profunda conocida de la Tierra, la Fosa de las Marianas, situada en el Pacifico, alberga una media 13.500 partículas de plástico por cada metro cúbico de agua.</p>
+                    <br>
+                    <br>
+                    <a href="https://www.20minutos.es/noticia/5705566/0/fosa-las-marianas-un-saco-microplasticos-6-800-metros-profundidad/" class="btn btn-primary">Ir al sitio web</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 100%;">
                     <img src="./img/noticia2.jpg" class="card-img-top img-fluid" alt="noticia">
                     <div class="card-body">
                     <h5 class="card-title" id="titulos">Canarias recibe basuras marinas de Estados Unidos y, sorpresa, también de Groenlandia</h5>
@@ -142,9 +128,8 @@
                     </div>
                 </div>
             </div>
-            <!-- Tarjeta de noticia 3 -->
             <div class="col">
-                <div class="card resaltado" style="width: 100%;">
+                <div class="card" style="width: 100%;">
                     <img src="./img/noticia3.jpg" class="card-img-top img-fluid" alt="noticia">
                     <div class="card-body">
                     <h5 class="card-title" id="titulos">Hallan una "alarmante" concentración de microplásticos en 14 ríos europeos, del Ebro al Támesis</h5>
@@ -153,9 +138,8 @@
                     </div>
                 </div>
             </div>
-            <!-- Tarjeta de noticia 4 -->
             <div class="col">
-                <div class="card resaltado" style="width: 100%;">
+                <div class="card" style="width: 100%;">
                     <img src="./img/noticia4.jpg" class="card-img-top img-fluid" alt="noticia">
                     <div class="card-body">
                     <h5 class="card-title" id="titulos">Alerta plasticosis: el 90% de los pollos de las aves marinas de Canarias tienen microplásticos en el estómago</h5>
@@ -166,7 +150,9 @@
             </div>
         </div>
     </div>
-<br>
+
+    <!-- Pie de página -->
+
   <!-- FOOTER -->
   <footer class="footer text-white pt-4 mt-auto">
     <div class="container">
@@ -177,15 +163,15 @@
           <h5 id="parrafo">Contacto</h5>
           <p id="parrafo">SAE W</p>
           <p id="parrafo">+34 622 42 06 84</p>
-          <a href="mailto:holasaew@gmail.com" class="text-decoration-none text-info" id="parrafo"> <!-- Para enviar correo al clicar -->
-            holasaew@gmail.com
+          <a href="mailto:442514.joan23@fje.edu" class="text-decoration-none text-info" id="parrafo"> <!-- Para enviar correo al clicar -->
+            442514.joan23@fje.edu
           </a>
         </div>
 
         <!-- Enlaces a redes sociales -->
         <div class="col-lg-6 col-sm-12 col-12">
           <div class="d-flex justify-content-center gap-3">
-            <a href="https://x.com/SAEW_ONG" target="_blank">
+            <a href="https://www.twitter.com/" target="_blank">
               <img src="./img/twitter.png" alt="twitter" class="iconos">
             </a>
             <a href="https://www.youtube.com/@EstebanJoan23" target="_blank">
