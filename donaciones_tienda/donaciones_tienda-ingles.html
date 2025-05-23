@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tienda Online</title>
+  <title> Online Shop</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Tu CSS personalizado -->
@@ -17,29 +17,29 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
           <img src="../img/icono.png" class="icono_menu img-fluid">
-          <a class="navbar-brand" href="#" id="parrafo">ONG - SEA W</a>
+          <a class="navbar-brand" id="parrafo">NGO - SEA W</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index_castellano.html" id="parrafo">Página principal</a>
+                <a class="nav-link active" aria-current="page" href="../index_ingles.html" id="parrafo">Main Page</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="parrafo" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Idiomas
+                <a class="nav-link dropdown-toggle" id="parrafo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Languages
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#" id="parrafo">Español <img src="../img/español.jpg" class="bandera_idioma"></a></li>
-                  <li><a class="dropdown-item" href="#" id="parrafo">Catalán <img src="../img/catalan.jpg" class="bandera_idioma"></a></li>
-                  <li><a class="dropdown-item" href="#" id="parrafo">Inglés <img src="../img/ingles.jpg" class="bandera_idioma"></a></li>
+                  <li><a class="dropdown-item" href="./donaciones_tienda.html" id="parrafo">Spanish <img src="../img/español.jpg" class="bandera_idioma"></a></li>
+                  <li><a class="dropdown-item" href="./donaciones_tienda_catala.html" id="parrafo">Catalan <img src="../img/catalan.jpg" class="bandera_idioma"></a></li>
+                  <li><a class="dropdown-item" href="./donaciones_tienda-ingles.html" id="parrafo">English <img src="../img/ingles.jpg" class="bandera_idioma"></a></li>
                 </ul>
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
+              <input class="form-control me-2" type="Buscar" placeholder="Search" aria-label="Buscar">
+              <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -47,43 +47,43 @@
       <br>
 <div class="container">
   <div class="row">
-    <h1 id="titulos">Donaciones</h1>
+    <h1 id="titulos">Donations</h1>
   </div>
   <div class="row justify-content-center">
     <div class="col-lg-6 col-md-12 col-sm-12">
       <div class="container">
         <br>
-        <h2 class="titulo-centrado margen-inferior" id="titulos">Formulario de Pago</h2>
+        <h2 class="titulo-centrado margen-inferior" id="titulos">Form of payment</h2>
         <form action="confirmacion.html" method="POST">
           <div class="row">
             <!-- Nombre -->
             <div class="col-lg-12 col-md-12 col-sm-12">
-              <label for="nombre" class="etiqueta form-label" id="parrafo">Nombre</label>
-              <input type="text" class="form-control campo-texto" id="nombre" name="nombre" placeholder="Tu nombre" required>
+              <label for="nombre" class="etiqueta form-label" id="parrafo">Name</label>
+              <input type="text" class="form-control campo-texto" id="nombre" name="nombre" placeholder="Your Name" required>
             </div>
           </div>
           <div class="row">
             <!-- Número de tarjeta -->
             <div class="col-lg-12 col-md-12 col-sm-12">
-              <label for="tarjeta" class="etiqueta form-label" id="parrafo">Número de Tarjeta</label>
+              <label for="tarjeta" class="etiqueta form-label" id="parrafo">Card Number</label>
               <input type="text" class="form-control campo-texto" id="tarjeta" name="tarjeta" placeholder="0000000000000000" required maxlength="16" title="Introduce exactamente 16 dígitos sin espacios">
             </div>
           </div>
           <div class="row">
             <!-- Vencimiento -->
             <div class="col-lg-6 col-md-12 col-sm-12">
-              <label for="fecha" class="etiqueta form-label" id="parrafo">Vencimiento</label>
+              <label for="fecha" class="etiqueta form-label" id="parrafo">Expire date</label>
               <input type="text" class="form-control campo-texto" id="fecha" name="fecha" placeholder="MM/AA" required maxlength="5" title="Formato MM/AA, por ejemplo 05/25">
             </div>
             <!-- Cantidad a donar -->
             <div class="col-lg-6 col-md-12 col-sm-12">
-              <label for="cantidad" class="etiqueta form-label" id="parrafo">Cantidad a donar (€)</label>
+              <label for="cantidad" class="etiqueta form-label" id="parrafo">Quantity to donate (€)</label>
               <input type="number" class="form-control campo-texto" id="cantidad" name="cantidad" placeholder="€" required min="1" title="Introduce la cantidad que deseas donar">
             </div>
           </div>
           <div class="row">
             <div class="col-12">
-              <button type="submit" class="btn btn-success w-100" id="parrafo">Pagar</button>
+              <button type="submit" class="btn btn-success w-100" id="parrafo">Pay</button>
             </div>
           </div>
         </form>
@@ -91,10 +91,10 @@
     </div>
   </div>
   <br>
-    <h1 class="text-center" id="titulos">Tienda Online</h1>
+    <h1 class="text-center" id="titulos">Online Shop</h1>
     <h5 class="text-center" id="fondo-parrafo">
-      Bienvenido a nuestra tienda solidaria
-      En esta tienda encontrarás productos únicos, desde camisetas y gorras hasta juguetes, con los que apoyas directamente los proyectos de nuestra ONG.
+      Welcome to our solidary store
+      In this store, you'll find unique products, from t-shirts and caps to toys, with which you directly support our NGO's projects.
     </h5>
     <div class="row">
       <!-- Producto 1: Camiseta -->
@@ -102,10 +102,10 @@
         <div class="card h-100 producto-card">
           <img src="../img/2.png" class="card-img-top" alt="Camiseta">
           <div class="card-body">
-            <h5 class="card-title" id="titulos">Camiseta</h5>
-            <p class="card-text" id="parrafo">Cómoda y fresca para el día a día.</p>
+            <h5 class="card-title" id="titulos">Shirt</h5>
+            <p class="card-text" id="parrafo">Comfortable and fresh for everyday use.</p>
             <p class="precio" id="parrafo">20€</p>
-            <a href="./pago.html" class="btn btn-primary" id="parrafo">Comprar</a>
+            <a href="./pago-ingles.html" class="btn btn-primary" id="parrafo">buy</a>
           </div>
         </div>
       </div>
@@ -115,10 +115,10 @@
         <div class="card h-100 producto-card">
           <img src="../img/3.png" class="card-img-top" alt="Gorra">
           <div class="card-body">
-            <h5 class="card-title" id="titulos">Gorra</h5>
-            <p class="card-text" id="parrafo">Ideal para protegerte del sol.</p>
+            <h5 class="card-title" id="titulos">Cap</h5>
+            <p class="card-text" id="parrafo">Ideal to get protected of the sunlight.</p>
             <p class="precio" id="parrafo">15€</p>
-            <a href="./pago.html" class="btn btn-primary" id="parrafo">Comprar</a>
+            <a href="./pago-ingles.html" class="btn btn-primary" id="parrafo">buy</a>
           </div>
         </div>
       </div>
@@ -126,12 +126,12 @@
       <!-- Producto 3: Camión de juguete -->
       <div class="col-sm-6 col-lg-4">
         <div class="card h-100 producto-card">
-          <img src="../img/4.png" class="card-img-top" alt="Camión de Juguete">
+          <img src="../img/4.png" class="card-img-top" alt="truck toy">
           <div class="card-body">
-            <h5 class="card-title" id="titulos">Camión de Juguete</h5>
-            <p class="card-text" id="parrafo">Diversión asegurada para los pequeños.</p>
+            <h5 class="card-title" id="titulos">Truck toy</h5>
+            <p class="card-text" id="parrafo">Fun for the most little.</p>
             <p class="precio" id="parrafo">9€</p>
-            <a href="./pago.html" class="btn btn-primary" id="parrafo">Comprar</a>
+            <a href="./pago-ingles.html" class="btn btn-primary" id="parrafo">buy</a>
           </div>
         </div>
       </div>
@@ -139,6 +139,8 @@
   </div>
 </div>
 <br>
+ <!-- Pie de página -->
+    <br>
   <!-- FOOTER -->
   <footer class="footer text-white pt-4 mt-auto">
     <div class="container">
@@ -146,7 +148,7 @@
         
         <!-- Información de contacto -->
         <div class="col-lg-6 col-sm-12 col-12">
-          <h5 id="parrafo">Contacto</h5>
+          <h5 id="parrafo">Contact</h5>
           <p id="parrafo">SAE W</p>
           <p id="parrafo">+34 622 42 06 84</p>
           <a href="mailto:holasaew@gmail.com" class="text-decoration-none text-info" id="parrafo"> <!-- Para enviar correo al clicar -->
@@ -160,10 +162,10 @@
             <a href="https://x.com/SAEW_ONG" target="_blank">
               <img src="../img/twitter.png" alt="twitter" class="iconos">
             </a>
-            <a href="https://www.youtube.com/@EstebanJoan23" target="_blank">
+            <a href="https://discord.gg/zdzjdHDY" target="_blank">
               <img src="../img/youtube.png" alt="YouTube" class="iconos">
             </a>
-            <a href="https://www.instagram.com/" target="_blank">
+            <a href="https://www.instagram.com/saew_ong/" target="_blank">
                 <img src="../img/instagram.png" alt="Instagram" class="iconos">
               </a>
           </div>
